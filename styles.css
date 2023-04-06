@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#menu {
+    background-color: #BE89CB;
+    width: 1000px;
+    height: 103px;
+    top: -655px;
+    left: 528px;
+}
+
+#menu ul {
+    display: flex;
+    padding: 30px;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 150px;
+}
+
+#menu ul li {
+    list-style: none;
+}
+
+#menu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: purple; /*Mudamos a cor para Rosa*/
+  }
