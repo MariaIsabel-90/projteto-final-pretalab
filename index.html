@@ -1,35 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="menu">
-        <ul>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#portifolio">Portifólio</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    </head>
 
-    <div id="perfil">
-
-    </div>
-
-    <div id="formacao">
-
-    </div>
+    <body>
+        <header class="header-menu">
+            <nav>
+              <ul class="lista-menu">
+                <li><a href="#formacao">Formação</a> </li>
+                <li><a href="#portifolio">Portfólio</a></li>
+                <li><a href="#contato">Contatos</a></li>
+              </ul>
+            </header>
+            </nav>
     
-    <div id="portifolio"></div>
+    <!--Seção com o perfil e foto-->   
+        <main>
+            <section  class="secao-principal">
+                <div class="subcontainer-principal container">
+                    <div>
+                        <img class="foto" src="./assets/foto_CV.png"/ alt="Foto de perfil">
+                    </div>
+                    <div>
+                        <h1 class="nome-completo">Maria Isabel Barros</h1>
+                        <h2 class="profissao">Cientista de dados</h2>
+                    </div>
+    
+                    <div class="resumo">
+                        <p>
+                        Formada em Oceanografia com foco em dinâmica dos oceanos. <br>
+                        Pesquisa alimenta minha alma curiosa. Usar R, Python e MatLab para organizar informações e tirar insights é o que faço de melhor. <br>
+                        Recentemente iniciei uma Graduação Tecnológica em Ciência de Dados e sou bolsista do Programa Inova Talentos IEL/Ford. 
+                        </p>
+                    </div> 
+                <div/>
+            </section>
 
-    <div id="contato"></div>
+       <!--Seção de Educação-->
+            <section id="formacao" class="background-cinza">
+                <div class="container article-lista">
+                    <div><h3 class="topico-principal">Formação</h3></div>
 
-</body>
+                    <div class="lista-item">
+                        <ul>
+                             <li>
+                                <p class="lista-titulo">Ciclo formativo básico - O poder do Futuro| Fev/2023 - Abr/2023</p>
+                                <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+                                <p class="lista-descricao">Lógica de programação com JavaScript | HTML | CSS | Soft skills | Carreiras Tech</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                               <p class="lista-titulo">Graduação Tecnológica em Ciência de dados | 2023 -</p>
+                               <a href="https://www.wyden.com.br/graduacao/ciencia-de-dados" target="_blank" class="lista-local">UniFavip Wyden</a>
+                               <p class="lista-descricao">Estatística | Tecnologia da Informação | Ciência de dados | PostgreSQL | Python </p>
+                           </li>
+                       </ul>
+                       
+                       <ul>
+                            <li>
+                                <p class="lista-titulo">Mestrado em Ciências do Mar | 2019 - 2021</p>
+                                <a href="https://www-iuem.univ-brest.fr/training/sml-masters-degree/marine-sciences-marine-physics/?lang=en" target="_blank" class="lista-local">Université de Bretagne Occidentale</a>
+                                <p class="lista-descricao">Matemática aplicada | Dinâmica de Fluidos Geofísicos | Ciência de dados | Big Data | Python</p>
+                            </li>
+                        </ul>
+                       
+                        <ul>
+                            <li>
+                                <p class="lista-titulo">Graduação em Oceanografia | 2008 - 2014 </p>
+                                <a href="http://oceanografia.ufba.br/" target="_blank" class="lista-local">Universidade Federal da Bahia</a>
+                                <p class="lista-descricao">Biologia | Física | Química | Geologia | Gestão ambiental | Excel | MATLAB </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+        
+            </section>
+    
+        <!--Portifólio-->
+            <section id="portifolio" class="fundo-cinzaclaro">
+                <div class="container article-lista">
+                    <div><h3 class="topico-principal">Meus projetos</h3></div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                           <p class="lista-titulo">Calculadora</p>
+                           <p class="lista-subtitulo">Projeto em JavaScript</p>
+                           <a href="https://isabel-projetopretalab.netlify.app/" target="_blank" class="lista-local">Link para o projeto</a>
+                           <p class="lista-descricao">Projeto final desenvolvido durante o Ciclo Formativo Básico, da PretaLab com a finalidade de desenvolver em ferramentas web, sobretudo em JavaScript. </p>
+                       </li>
+                   </ul>
+                   <ul>
+                    <li>
+                       <p class="lista-titulo">Linktree</p>
+                       <p class="lista-subtitulo">Projeto em HTML e CSS</p>
+                       <a href="https://isabel-linktree.netlify.app" target="_blank" class="lista-local">Link para o projeto</a>
+                       <p class="lista-descricao">Projeto desenvolvido em aula durante o Ciclo Formativo Básico, da PretaLab com a finalidade de desenvolver em ferramentas web, sobretudo em HTML d CSS. Criação de um site com meu perfil nas redes sociais.</p>
+                   </li>
+               </ul>
+                </div>
+            </section>
+
+
+        <footer class="rodape">
+            <div class="container-rodape">
+                <ul id="contato" class="lista-rodape">
+                    <li>
+                        <img class="lista-rodape-logo" src="./assets/e-mail.png">
+                        <a href="mailto:m.isabel.barros@gmail.com" target="_blank" class="link-icone"> m.isabel.barros@gmail.com</a>
+                    </li>
+                    <li>
+                        <img class="lista-rodape-logo" src="./assets/GitHub.png">
+                        <a href="https://github.com/MariaIsabel-90" target="_blank" class="link-icone"> /mariaisabelbarros</a>
+                    </li>
+                    <li>
+                        <img class="lista-rodape-logo" src="./assets/linkedin.png">
+                        <a href="https://www.linkedin.com/in/mariaisabelbarros/" target="_blank" class="link-icone"> MariaIsabel-90</a>
+                    </li>
+                    
+                 </ul>
+            </div>
+
+        </footer>
+
+    </body>
 </html>

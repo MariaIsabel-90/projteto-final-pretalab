@@ -1,37 +1,194 @@
+/* Toda a página */
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+  
+  
+body{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-
-#menu {
-    background-color: #BE89CB;
-    width: 1000px;
-    height: 103px;
-    top: -655px;
-    left: 528px;
-}
-
-#menu ul {
-    display: flex;
-    padding: 30px;
-    justify-content: right;
-    align-items: flex-end;
-    gap: 150px;
-}
-
-#menu ul li {
+  
+  li {
     list-style: none;
 }
-
-#menu ul li a {
-    font-family: 'Open Sans', sans-serif;
+/* Header */
+.header-menu{
+    display: flex;
+    position: fixed; 
+    width: 100%; 
+    padding: 8px;
+    padding-bottom: 32px; 
+    padding-top: 32px;
+    height: 50px; 
+    background-color: #ab4c73;
+}
+  
+.header-menu nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%; 
+}
+  
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 50%; 
+    align-items: center; 
+}
+  
+.lista-menu li>a {
+    color: #FFF; 
+    font-size: 18px; 
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
-#menu ul li a:hover {
-    color: purple; /*Mudamos a cor para Rosa*/
+.lista-menu li>a:hover {
+    color: #24104f; 
+}
+
+/* Main */
+/*Seção principal*/
+.secao-principal {
+    background-color: #EDEAEA;
+    height: 100vh;
+    display: flex;   
+}
+
+.container {
+    margin-right: auto; 
+    margin-left: auto;
+    padding-top: 120px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1002px;
+    width: 100%; 
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto {
+    width:250px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.nome-completo{
+    font-weight: 700;
+    font-size: 36px;
+    font-style: normal;
+    color: #7c1c70;
+    text-align: center;
+    align-items: center;
+
+}
+
+.profissao {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #b884b6;
+    text-align: center;
+    align-items: center;
+
+}
+
+.resumo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    width:500px;
+}
+
+.topico-principal {
+    color: #7c1c70;
+    font-size: 24px;
+}
+
+/*Seção Formação*/
+.background-cinza {
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.lista-item {
+    padding-top: 32px;
+    padding-left: 152px;
+}
+
+.lista-item ul{
+    margin-bottom: 15px;
+}
+
+.lista-item li {
+    margin-bottom: 30px;
+}
+
+.lista-titulo{
+    font-weight: 700;
+    color: #b884b6;
+}
+
+.lista-descricao {
+    width:405px;
+}
+
+/*Seção do portifólio*/
+.fundo-cinzaclaro {
+    background-color: #EDEAEA;
+    height: 100vh;
+}
+/* Footer */
+.rodape {
+    background-color: #ab4c73;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.container-rodape {
+    margin-right: auto; 
+    margin-left: auto;
+    padding-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1002px;
+    width: 100%; 
+}
+
+.lista-rodape li{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
   }
+
+  .lista-rodape li>a {
+    color: #FFF; 
+    font-size: 18px; 
+    font-weight: 700;
+    text-decoration: none; 
+    margin-left: 20px;
+}
+  
+.lista-rodape-logo {
+    width: 40px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
