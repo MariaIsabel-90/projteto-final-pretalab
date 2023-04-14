@@ -5,7 +5,7 @@
 ## Sobre o projeto
 Link do projeto no ar:
 
-- [link do projeto final]
+- [link do projeto final](https://projeto-final-mariaisabel.netlify.app/)
 
 O projeto final é um portfólio feito em HTML, CSS e hospedado no netlify.
 
@@ -24,12 +24,12 @@ Link do Protótipo:
 
 ---
 <br>
-_Foi incrível caminharmos juntas!_
+_Esse foi o começo na Tecnologia melhor do que eu poderia imaginar!_
 <br>
 
 ### Vamos nos conectar!
 
-- [linkedin](https://www.linkedin.com/in/simaraconceicao)
-- [github](https://github.com/simaraconceicao)
+- [linkedin](https://www.linkedin.com/in/mariaisabelbarros/)
+- [github](https://github.com/MariaIsabel-90/)
 
 <br>
