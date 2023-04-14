@@ -1,6 +1,6 @@
 # Projeto Final Ciclo Formativo Pretalab - Módulo HTML e CSS
 
-![gif introdução](https://media.giphy.com/media/968taxwNaAXqZASdcn/giphy.gif)
+![gif introdução](https://media.giphy.com/media/0VxdFBlV73nIWeVSH7/giphy.gif)
 
 ## Sobre o projeto
 Link do projeto no ar:
@@ -24,7 +24,7 @@ Link do Protótipo:
 
 ---
 <br>
-_Esse foi o começo na Tecnologia melhor do que eu poderia imaginar!_
+_Essa introdução a Front-end e carreiras Tech foi muito melhor do que eu poderia imaginar!_
 <br>
 
 ### Vamos nos conectar!
